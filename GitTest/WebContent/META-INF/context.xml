@@ -1,0 +1,8 @@
+<Context>
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+	<Resource auth="Container"
+		driverClassName="com.mysql.jdbc.Driver" name="jdbc/mysql"
+		username="jspid" password="jsppass" type="javax.sql.DataSource"
+		url="jdbc:mysql://192.168.5.9:3306/jspdb5" />
+</Context>

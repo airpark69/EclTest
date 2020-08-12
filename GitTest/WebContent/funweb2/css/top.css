@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	padding: 3rem;
+	padding-top: 80px;
+	color: white;
+	background: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+}
+
+body {
+	padding-top: 200px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
+}
+
+
+#login {
+	float: right;
+}
+
+#login ul li {
+	float: left;
+	list-style-type: none;
+}
+
+
+#login ul ul {
+	display: none;
+	float: left;
+	position: absolute;
+}
+
+#login ul ul li {
+	float: left;
+	background-color: rgba(255, 255, 255, 0.5);
+} 
+
+#login ul ul li a {
+	color: black;
+	font-size: 20px;
+}
